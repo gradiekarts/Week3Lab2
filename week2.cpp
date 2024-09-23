@@ -39,7 +39,7 @@ namespace CST8219 {
 
 	int main(int argc, char** argv)
 	{
-		CST8219::Vehicle myVehicle(4);  //this calls constructor Vehicle(int)
+		CST8219::Vehicle myVehicle(4,2);  //this calls constructor Vehicle(int, int)
 		cout << "I made a Vehicle!" << endl;
 		return 0;
 	}
