@@ -39,7 +39,8 @@ namespace CST8219 {
 
 	int main(int argc, char** argv)
 	{
-		cout << "Hello World!" << endl;
+		CST8219::Vehicle myVehicle;
+		cout << "I made a Vehicle!" << endl;
 		return 0;
 	}
 
